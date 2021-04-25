@@ -1,23 +1,34 @@
-//
-//  SceneDelegate.swift
-//  MyBrowser
-//
-//  Created by POTCHONA Essosolam Justin on 24/04/2021.
-//  Copyright © 2021 Dreammore. All rights reserved.
-//
-
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
-    var window: UIWindow?
+    var _window: UIWindow?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        var navigationBarAppearace = UINavigationBar.appearance()
+        let attributes = [NSAttributedString.Key.font: UIFont(name: "Poppins-Bold", size: 17)!]
+        navigationBarAppearace.tintColor = UIColor(named: "darkColor")
+        navigationBarAppearace.barTintColor = .black
+        navigationBarAppearace.titleTextAttributes = attributes
+
+
+        if let windowsScene = scene as? UIWindowScene {
+            let window = UIWindow(windowScene: windowsScene)
+            let authScreen = AuthViewController()
+            let navigation=UINavigationController(rootViewController: authScreen)
+            window.rootViewController = navigation
+
+            self._window = window
+
+            window.makeKeyAndVisible()
+        }
+
+
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -50,4 +61,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-
