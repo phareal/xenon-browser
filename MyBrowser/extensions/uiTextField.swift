@@ -6,7 +6,7 @@
 import Foundation
 import UIKit
 
-extension UITextField {
+extension CustomUITextField {
 
     enum Direction {
         case Left
@@ -15,7 +15,7 @@ extension UITextField {
     
 
 // add image to textfield
-    func withImage(direction: Direction, image: UIImage, colorSeparator: UIColor!){
+    func withImage(direction: Direction, image: UIImage, colorSeparator: UIColor!,action: UITapGestureRecognizer!){
         let mainView = UIView(frame: CGRect(x: 0, y: 0, width: 48, height: 45))
         mainView.layer.cornerRadius = 5
 
@@ -26,6 +26,14 @@ extension UITextField {
         let imageView = UIImageView(image: image)
         imageView.contentMode = .scaleAspectFit
         imageView.frame = CGRect(x: 12.0, y: 12.0, width: 18.0, height: 18.0)
+        if action !== nil{
+            print("dsd")
+            imageView.isUserInteractionEnabled = true
+            imageView.addGestureRecognizer(action)
+        }else{
+            print("dsddd")
+        }
+
         view.addSubview(imageView)
 
         let seperatorView = UIView()
@@ -48,5 +56,6 @@ extension UITextField {
         self.layer.borderWidth = CGFloat(0.5)
         self.layer.cornerRadius = 5
     }
+
 
 }

@@ -12,14 +12,18 @@ import UIKit
 class AuthViewController: UIViewController{
 
 
-    var txtfld_email : UITextField!;
-    var txtfld_password : UITextField!;
+    var txtfld_email : CustomUITextField!;
+    var txtfld_password : CustomUITextField!;
+    var ic_toggleVisibility  :UIImage! ;
+    var isPasswordVisible  = true
+
     lazy var loginContainer:UIScrollView={
         let view = UIScrollView()
         view.translatesAutoresizingMaskIntoConstraints=false
         view.contentSize.height=UIScreen.main.bounds.height
         return view
     }()
+
 
     var btn_register:UIButton!
 
@@ -79,7 +83,7 @@ class AuthViewController: UIViewController{
 
 
         //let field
-        self.txtfld_email = UITextField()
+        self.txtfld_email = CustomUITextField()
         fieldContainer.addArrangedSubview(self.txtfld_email)
         self.txtfld_email.translatesAutoresizingMaskIntoConstraints = false
         self.txtfld_email.attributedPlaceholder = NSAttributedString(string: "xenon@xenonaio.com",
@@ -92,7 +96,7 @@ class AuthViewController: UIViewController{
         self.txtfld_email.isEnabled = true
         self.txtfld_email.keyboardType = .emailAddress
         let ic_message = UIImage(named: "ic_message")
-        self.txtfld_email.withImage(direction: .Left, image: ic_message!, colorSeparator: UIColor(rgb: 0x4C4D4F))
+        self.txtfld_email.withImage(direction: .Left, image: ic_message!, colorSeparator: UIColor(rgb: 0x4C4D4F),action: nil)
 
 
         self.txtfld_email.layer.cornerRadius = 9
@@ -101,7 +105,7 @@ class AuthViewController: UIViewController{
 
         //password textfield
 
-        self.txtfld_password = UITextField()
+        self.txtfld_password = CustomUITextField()
         fieldContainer.addArrangedSubview(self.txtfld_password)
         self.txtfld_password.translatesAutoresizingMaskIntoConstraints = false
         self.txtfld_password.attributedPlaceholder = NSAttributedString(string: "xenon@xenonaio.com",
@@ -110,7 +114,7 @@ class AuthViewController: UIViewController{
         self.txtfld_password.widthAnchor.constraint(equalToConstant: 329).isActive = true
         self.txtfld_password.heightAnchor.constraint(equalToConstant: 48).isActive = true
         self.txtfld_password.centerXAnchor.constraint(equalTo:view.centerXAnchor).isActive = true
-        self.txtfld_password.textColor = UIColor(rgb: 0x3C3E40)
+        self.txtfld_password.textColor = .white
         self.txtfld_password.isEnabled = true
         self.txtfld_password.keyboardType = .default
         self.txtfld_password.layer.cornerRadius = 9
@@ -118,9 +122,10 @@ class AuthViewController: UIViewController{
         self.txtfld_password.layer.borderColor = UIColor(rgb: 0x4C4D4F).cgColor
 
         let passwordleftIcon = UIImage(named: "ic_lock")
-        let ic_toggleVisibility = UIImage(named: "ic_eye")
-        self.txtfld_password.withImage(direction: .Left, image: passwordleftIcon!, colorSeparator: UIColor(rgb: 0x4C4D4F))
-        self.txtfld_password.withImage(direction: .Right, image: ic_toggleVisibility!,colorSeparator: nil)
+        let togglePasswordVisibilityGesture =  UITapGestureRecognizer(target: self, action: #selector(self.togglePassword))
+        self.ic_toggleVisibility = UIImage(named: "ic_eye")
+        self.txtfld_password.withImage(direction: .Left, image: passwordleftIcon!, colorSeparator: UIColor(rgb: 0x4C4D4F), action: nil)
+        self.txtfld_password.withImage(direction: .Right, image: ic_toggleVisibility!,colorSeparator: nil,action: togglePasswordVisibilityGesture)
 
         /*for the button*/
 
@@ -133,7 +138,9 @@ class AuthViewController: UIViewController{
         self.btn_register.heightAnchor.constraint(equalToConstant: 44).isActive=true
         self.btn_register.layer.cornerRadius = 9
         self.btn_register.backgroundColor =  UIColor(rgb: 0x3BD085)
+
         self.btn_register.setTitle("Sign In", for: .normal )
+        self.btn_register.titleLabel?.font =   UIFont(name: "Poppins-Bold", size: 16)
         self.btn_register.addTarget(self, action: #selector(goToHome), for: .touchUpInside)
     }
 
@@ -142,6 +149,23 @@ class AuthViewController: UIViewController{
 
         let homeViewController = HomeViewController()
         self.navigationController?.pushViewController(homeViewController, animated: true)
+
+    }
+
+
+    @objc func togglePassword(){
+        print("dsds")
+        if self.isPasswordVisible == true {
+            self.isPasswordVisible = false
+            self.txtfld_password.isSecureTextEntry = true
+        }else{
+
+            self.isPasswordVisible = true
+            self.txtfld_password.isSecureTextEntry = false
+            self.ic_toggleVisibility  = UIImage(named: "ic_lock")
+        }
+       print("toggle")
+
     }
 
 }

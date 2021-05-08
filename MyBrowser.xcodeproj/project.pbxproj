@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00063BDD4E4902908736BDC2 /* Pods_MyBrowser_MyBrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBEB2AF67A91B1399F731F5 /* Pods_MyBrowser_MyBrowserUITests.framework */; };
+		0345F96A263DBB570059E5B1 /* CreateNewBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345F969263DBB570059E5B1 /* CreateNewBrowserViewController.swift */; };
+		0345F96C263E35630059E5B1 /* CreateBrowserPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345F96B263E35630059E5B1 /* CreateBrowserPopupView.swift */; };
+		0345F96E263E3C910059E5B1 /* MyBrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345F96D263E3C910059E5B1 /* MyBrowserVC.swift */; };
+		0345F970263E3D400059E5B1 /* BrowserAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345F96F263E3D400059E5B1 /* BrowserAddVC.swift */; };
+		0345F972263E91ED0059E5B1 /* ic_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0345F971263E91ED0059E5B1 /* ic_cancel.png */; };
+		0345F974263EF6310059E5B1 /* CustomBrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345F973263EF6310059E5B1 /* CustomBrowserCell.swift */; };
+		0345F976263F1D100059E5B1 /* ic_plus_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0345F975263F1D100059E5B1 /* ic_plus_white.png */; };
 		0349E84C2633F27600B0391A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349E84B2633F27600B0391A /* AppDelegate.swift */; };
 		0349E8552633F27C00B0391A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0349E8542633F27C00B0391A /* Assets.xcassets */; };
 		0349E8582633F27C00B0391A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0349E8562633F27C00B0391A /* LaunchScreen.storyboard */; };
@@ -23,27 +31,35 @@
 		0349E89D2635D05900B0391A /* ic_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0349E89C2635D05800B0391A /* ic_home.png */; };
 		448810752E435437F0679CDF /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4488148FD03698AF133D6B38 /* Poppins-Thin.ttf */; };
 		448810BF152A3B44C3280F18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448812DF4A86FDAF6725FCDE /* HomeViewController.swift */; };
+		448810C914E146F1C9643C39 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44881B7CF7D058D718D65746 /* CustomTextField.swift */; };
 		4488117A6F0E591AEC346CA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448812C8BA48E3C0BD67236C /* SceneDelegate.swift */; };
+		448811E42B89DCCDF5BB1A1B /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4488185991612FF563701D3F /* UILabel.swift */; };
 		4488128FFD025B7B5268CA9F /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881F9E02FDD93FAF579E93 /* Poppins-ExtraBold.ttf */; };
 		448812BF7ECD74BBFA893C0A /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881E7FC68238F98A1BA42D /* Poppins-ThinItalic.ttf */; };
 		4488135DE7230DDFA031F592 /* uiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4488104502D26F568ED5E63D /* uiTextField.swift */; };
 		44881383EB17CD702A1F6980 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44881E97ECC7165B4E464E04 /* UIImage.swift */; };
 		448813961D6485A3304D15A4 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881C8CB41212DB5FD98C16 /* Poppins-Black.ttf */; };
 		4488140CC54434AA7EAE0B5A /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 448819E1914D67B4C3D9799C /* Poppins-ExtraLightItalic.ttf */; };
+		448814A7C6B4F82749F6E424 /* addBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44881DAE0A3725EA9FF86DC5 /* addBrowserView.swift */; };
 		448817153D91A6D6240006ED /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881E7D4F02B665269937CC /* Poppins-Italic.ttf */; };
 		4488179A4118D983DB413B5F /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4488185350F6141B3ECEA15E /* Poppins-SemiBold.ttf */; };
 		448817BF6022CE28AF57CF69 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881D576658703E39D33DEA /* Poppins-ExtraLight.ttf */; };
 		448818181A83EA54287E09B9 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 448818771B085A3CB70A3053 /* Poppins-SemiBoldItalic.ttf */; };
 		4488185CA653EF664FF986BE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 44881BB4BCE429B9CCB87135 /* OFL.txt */; };
+		44881899A6167AA373808DB2 /* BrowserPaginateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44881B2403FBE98DEF1F2D01 /* BrowserPaginateCard.swift */; };
 		448818DEBDF5821D0F89F5D9 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881F0173A73037F0181B8F /* Poppins-MediumItalic.ttf */; };
 		448819A24B2D97117D8AEBF8 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881DE5F99FE101B0DFBBAA /* Poppins-BoldItalic.ttf */; };
+		44881A26452A1D1A57063A72 /* FullScreenBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4488176D1EB1A71BDEE9D4B6 /* FullScreenBrowserViewController.swift */; };
 		44881B4C5EF04FAC1B338E86 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881A31B913D0982B6F5E32 /* Poppins-Light.ttf */; };
 		44881B6B9AEDC407C67F1372 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44881B67A145ECE756011C7B /* Poppins-BlackItalic.ttf */; };
 		44881B7BCEF5AC32C6D505EF /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4488124B922CD343A85DA773 /* Poppins-LightItalic.ttf */; };
 		44881BB435CBD61E19D41C16 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4488147A0753EEB0B63FC165 /* Poppins-Medium.ttf */; };
+		44881D7C53253EC1EB94DE2F /* ic_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 448811B9F0D3EC5CFA65B1B6 /* ic_plus.png */; };
 		44881E5656FB17EDA01DCBC7 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 448810C63D7AC2628202A0EF /* Poppins-Bold.ttf */; };
 		44881F32FE7838B43CA42D81 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4488166CACD3D9CB9261AC5D /* Poppins-ExtraBoldItalic.ttf */; };
 		44881F7021E62CA9F3520429 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4488119022B9054946477D26 /* Poppins-Regular.ttf */; };
+		E0BAD8908A5383F63C9D1D2D /* Pods_MyBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16315B06E304DBD7AA4C186A /* Pods_MyBrowserTests.framework */; };
+		E9F4B16F752582CE3CEA183F /* Pods_MyBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCC801EC8F2772C85919FC3 /* Pods_MyBrowser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +80,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0345F969263DBB570059E5B1 /* CreateNewBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewBrowserViewController.swift; sourceTree = "<group>"; };
+		0345F96B263E35630059E5B1 /* CreateBrowserPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBrowserPopupView.swift; sourceTree = "<group>"; };
+		0345F96D263E3C910059E5B1 /* MyBrowserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBrowserVC.swift; sourceTree = "<group>"; };
+		0345F96F263E3D400059E5B1 /* BrowserAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserAddVC.swift; sourceTree = "<group>"; };
+		0345F971263E91ED0059E5B1 /* ic_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_cancel.png; sourceTree = "<group>"; };
+		0345F973263EF6310059E5B1 /* CustomBrowserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBrowserCell.swift; sourceTree = "<group>"; };
+		0345F975263F1D100059E5B1 /* ic_plus_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_plus_white.png; sourceTree = "<group>"; };
 		0349E8482633F27600B0391A /* MyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0349E84B2633F27600B0391A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0349E8542633F27C00B0391A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,29 +107,44 @@
 		0349E8972634C3D000B0391A /* ic_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_eye.png; sourceTree = "<group>"; };
 		0349E89A2635967D00B0391A /* BrowserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserView.xib; sourceTree = "<group>"; };
 		0349E89C2635D05800B0391A /* ic_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home.png; sourceTree = "<group>"; };
+		16315B06E304DBD7AA4C186A /* Pods_MyBrowserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBrowserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEB80D0B6365431AC1D58D1 /* Pods-MyBrowserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBrowserTests.release.xcconfig"; path = "Target Support Files/Pods-MyBrowserTests/Pods-MyBrowserTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FCC801EC8F2772C85919FC3 /* Pods_MyBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4488104502D26F568ED5E63D /* uiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiTextField.swift; sourceTree = "<group>"; };
 		448810C63D7AC2628202A0EF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		4488119022B9054946477D26 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		448811B9F0D3EC5CFA65B1B6 /* ic_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_plus.png; sourceTree = "<group>"; };
 		4488124B922CD343A85DA773 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
 		448812C8BA48E3C0BD67236C /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		448812DF4A86FDAF6725FCDE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4488147A0753EEB0B63FC165 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		4488148FD03698AF133D6B38 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		4488166CACD3D9CB9261AC5D /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4488176D1EB1A71BDEE9D4B6 /* FullScreenBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenBrowserViewController.swift; sourceTree = "<group>"; };
 		4488185350F6141B3ECEA15E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		4488185991612FF563701D3F /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		448818771B085A3CB70A3053 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		448819E1914D67B4C3D9799C /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		44881A31B913D0982B6F5E32 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		44881B2403FBE98DEF1F2D01 /* BrowserPaginateCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserPaginateCard.swift; sourceTree = "<group>"; };
 		44881B67A145ECE756011C7B /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		44881B7CF7D058D718D65746 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		44881BB4BCE429B9CCB87135 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		44881C8CB41212DB5FD98C16 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
 		44881D576658703E39D33DEA /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		44881DAE0A3725EA9FF86DC5 /* addBrowserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addBrowserView.swift; sourceTree = "<group>"; };
 		44881DE5F99FE101B0DFBBAA /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
 		44881E7D4F02B665269937CC /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		44881E7FC68238F98A1BA42D /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		44881E97ECC7165B4E464E04 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		44881F0173A73037F0181B8F /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		44881F9E02FDD93FAF579E93 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8D736CCD9F4A25837C9149FC /* Pods-MyBrowser-MyBrowserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBrowser-MyBrowserUITests.release.xcconfig"; path = "Target Support Files/Pods-MyBrowser-MyBrowserUITests/Pods-MyBrowser-MyBrowserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97DD6DC888D8051C2C28CBFB /* Pods-MyBrowserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBrowserTests.debug.xcconfig"; path = "Target Support Files/Pods-MyBrowserTests/Pods-MyBrowserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC37453B1D10322351A5BEA /* Pods-MyBrowser-MyBrowserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBrowser-MyBrowserUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyBrowser-MyBrowserUITests/Pods-MyBrowser-MyBrowserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBEB2AF67A91B1399F731F5 /* Pods_MyBrowser_MyBrowserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBrowser_MyBrowserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF72E83EAC3A8D48E07F0908 /* Pods-MyBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBrowser.debug.xcconfig"; path = "Target Support Files/Pods-MyBrowser/Pods-MyBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2F776F054E3E68AEE4015E /* Pods-MyBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBrowser.release.xcconfig"; path = "Target Support Files/Pods-MyBrowser/Pods-MyBrowser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F4B16F752582CE3CEA183F /* Pods_MyBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BAD8908A5383F63C9D1D2D /* Pods_MyBrowserTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00063BDD4E4902908736BDC2 /* Pods_MyBrowser_MyBrowserUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +182,8 @@
 				0349E8612633F27C00B0391A /* MyBrowserTests */,
 				0349E86C2633F27C00B0391A /* MyBrowserUITests */,
 				0349E8492633F27600B0391A /* Products */,
+				DEF62E83B653A4849697C4CE /* Frameworks */,
+				2B6CAC1B2018D2D59E7F2F17 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				0349E88A263440FC00B0391A /* extension.swift */,
+				44881B7CF7D058D718D65746 /* CustomTextField.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -219,10 +263,13 @@
 		0349E88C26346F3D00B0391A /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				0345F975263F1D100059E5B1 /* ic_plus_white.png */,
+				0345F971263E91ED0059E5B1 /* ic_cancel.png */,
 				0349E89C2635D05800B0391A /* ic_home.png */,
 				0349E8972634C3D000B0391A /* ic_eye.png */,
 				0349E891263474FC00B0391A /* ic_lock.png */,
 				0349E88F26346FC500B0391A /* ic_message.png */,
+				448811B9F0D3EC5CFA65B1B6 /* ic_plus.png */,
 			);
 			path = icons;
 			sourceTree = "<group>";
@@ -233,6 +280,7 @@
 				0349E8992635572A00B0391A /* xib */,
 				0349E8952634BC6100B0391A /* viewController */,
 				0349E8942634BC5A00B0391A /* storyboard */,
+				44881D8BB8315330971A827B /* customViews */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -247,7 +295,11 @@
 		0349E8952634BC6100B0391A /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				0345F96F263E3D400059E5B1 /* BrowserAddVC.swift */,
+				0345F96D263E3C910059E5B1 /* MyBrowserVC.swift */,
 				448812DF4A86FDAF6725FCDE /* HomeViewController.swift */,
+				0345F969263DBB570059E5B1 /* CreateNewBrowserViewController.swift */,
+				4488176D1EB1A71BDEE9D4B6 /* FullScreenBrowserViewController.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -257,6 +309,7 @@
 			children = (
 				4488104502D26F568ED5E63D /* uiTextField.swift */,
 				44881E97ECC7165B4E464E04 /* UIImage.swift */,
+				4488185991612FF563701D3F /* UILabel.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -267,6 +320,19 @@
 				0349E89A2635967D00B0391A /* BrowserView.xib */,
 			);
 			path = xib;
+			sourceTree = "<group>";
+		};
+		2B6CAC1B2018D2D59E7F2F17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF72E83EAC3A8D48E07F0908 /* Pods-MyBrowser.debug.xcconfig */,
+				FC2F776F054E3E68AEE4015E /* Pods-MyBrowser.release.xcconfig */,
+				AFC37453B1D10322351A5BEA /* Pods-MyBrowser-MyBrowserUITests.debug.xcconfig */,
+				8D736CCD9F4A25837C9149FC /* Pods-MyBrowser-MyBrowserUITests.release.xcconfig */,
+				97DD6DC888D8051C2C28CBFB /* Pods-MyBrowserTests.debug.xcconfig */,
+				2DEB80D0B6365431AC1D58D1 /* Pods-MyBrowserTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		4488197BF9F9E01B552BF50B /* fonts */ = {
@@ -303,6 +369,27 @@
 			path = Poppins;
 			sourceTree = "<group>";
 		};
+		44881D8BB8315330971A827B /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				44881DAE0A3725EA9FF86DC5 /* addBrowserView.swift */,
+				0345F96B263E35630059E5B1 /* CreateBrowserPopupView.swift */,
+				0345F973263EF6310059E5B1 /* CustomBrowserCell.swift */,
+				44881B2403FBE98DEF1F2D01 /* BrowserPaginateCard.swift */,
+			);
+			path = customViews;
+			sourceTree = "<group>";
+		};
+		DEF62E83B653A4849697C4CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FCC801EC8F2772C85919FC3 /* Pods_MyBrowser.framework */,
+				BDBEB2AF67A91B1399F731F5 /* Pods_MyBrowser_MyBrowserUITests.framework */,
+				16315B06E304DBD7AA4C186A /* Pods_MyBrowserTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -310,6 +397,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0349E8722633F27C00B0391A /* Build configuration list for PBXNativeTarget "MyBrowser" */;
 			buildPhases = (
+				04823BD052BF8CCE42FDD8AE /* [CP] Check Pods Manifest.lock */,
 				0349E8442633F27600B0391A /* Sources */,
 				0349E8452633F27600B0391A /* Frameworks */,
 				0349E8462633F27600B0391A /* Resources */,
@@ -327,6 +415,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0349E8752633F27C00B0391A /* Build configuration list for PBXNativeTarget "MyBrowserTests" */;
 			buildPhases = (
+				099D6D58377743CAC3DABE58 /* [CP] Check Pods Manifest.lock */,
 				0349E85A2633F27C00B0391A /* Sources */,
 				0349E85B2633F27C00B0391A /* Frameworks */,
 				0349E85C2633F27C00B0391A /* Resources */,
@@ -345,6 +434,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0349E8782633F27C00B0391A /* Build configuration list for PBXNativeTarget "MyBrowserUITests" */;
 			buildPhases = (
+				5531080888B34A54F746F3F3 /* [CP] Check Pods Manifest.lock */,
 				0349E8652633F27C00B0391A /* Sources */,
 				0349E8662633F27C00B0391A /* Frameworks */,
 				0349E8672633F27C00B0391A /* Resources */,
@@ -426,15 +516,18 @@
 				44881F7021E62CA9F3520429 /* Poppins-Regular.ttf in Resources */,
 				4488179A4118D983DB413B5F /* Poppins-SemiBold.ttf in Resources */,
 				4488128FFD025B7B5268CA9F /* Poppins-ExtraBold.ttf in Resources */,
+				0345F972263E91ED0059E5B1 /* ic_cancel.png in Resources */,
 				448819A24B2D97117D8AEBF8 /* Poppins-BoldItalic.ttf in Resources */,
 				448817BF6022CE28AF57CF69 /* Poppins-ExtraLight.ttf in Resources */,
 				448812BF7ECD74BBFA893C0A /* Poppins-ThinItalic.ttf in Resources */,
 				44881B6B9AEDC407C67F1372 /* Poppins-BlackItalic.ttf in Resources */,
 				44881B7BCEF5AC32C6D505EF /* Poppins-LightItalic.ttf in Resources */,
 				448818DEBDF5821D0F89F5D9 /* Poppins-MediumItalic.ttf in Resources */,
+				0345F976263F1D100059E5B1 /* ic_plus_white.png in Resources */,
 				448818181A83EA54287E09B9 /* Poppins-SemiBoldItalic.ttf in Resources */,
 				44881F32FE7838B43CA42D81 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				4488140CC54434AA7EAE0B5A /* Poppins-ExtraLightItalic.ttf in Resources */,
+				44881D7C53253EC1EB94DE2F /* ic_plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,18 +547,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04823BD052BF8CCE42FDD8AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		099D6D58377743CAC3DABE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyBrowserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5531080888B34A54F746F3F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyBrowser-MyBrowserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0349E8442633F27600B0391A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0345F96A263DBB570059E5B1 /* CreateNewBrowserViewController.swift in Sources */,
 				0349E88626343C9A00B0391A /* AuthViewController.swift in Sources */,
 				0349E84C2633F27600B0391A /* AppDelegate.swift in Sources */,
 				0349E88B263440FC00B0391A /* extension.swift in Sources */,
+				0345F96C263E35630059E5B1 /* CreateBrowserPopupView.swift in Sources */,
+				0345F974263EF6310059E5B1 /* CustomBrowserCell.swift in Sources */,
 				4488135DE7230DDFA031F592 /* uiTextField.swift in Sources */,
 				448810BF152A3B44C3280F18 /* HomeViewController.swift in Sources */,
 				4488117A6F0E591AEC346CA4 /* SceneDelegate.swift in Sources */,
 				44881383EB17CD702A1F6980 /* UIImage.swift in Sources */,
+				448811E42B89DCCDF5BB1A1B /* UILabel.swift in Sources */,
+				448814A7C6B4F82749F6E424 /* addBrowserView.swift in Sources */,
+				0345F970263E3D400059E5B1 /* BrowserAddVC.swift in Sources */,
+				0345F96E263E3C910059E5B1 /* MyBrowserVC.swift in Sources */,
+				44881899A6167AA373808DB2 /* BrowserPaginateCard.swift in Sources */,
+				44881A26452A1D1A57063A72 /* FullScreenBrowserViewController.swift in Sources */,
+				448810C914E146F1C9643C39 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +800,7 @@
 		};
 		0349E8732633F27C00B0391A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF72E83EAC3A8D48E07F0908 /* Pods-MyBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -646,6 +819,7 @@
 		};
 		0349E8742633F27C00B0391A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2F776F054E3E68AEE4015E /* Pods-MyBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -664,6 +838,7 @@
 		};
 		0349E8762633F27C00B0391A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97DD6DC888D8051C2C28CBFB /* Pods-MyBrowserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -686,6 +861,7 @@
 		};
 		0349E8772633F27C00B0391A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DEB80D0B6365431AC1D58D1 /* Pods-MyBrowserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -708,6 +884,7 @@
 		};
 		0349E8792633F27C00B0391A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC37453B1D10322351A5BEA /* Pods-MyBrowser-MyBrowserUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -728,6 +905,7 @@
 		};
 		0349E87A2633F27C00B0391A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D736CCD9F4A25837C9149FC /* Pods-MyBrowser-MyBrowserUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
