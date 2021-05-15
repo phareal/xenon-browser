@@ -152,7 +152,10 @@ class HomeViewController: UIViewController, ReceivedURLForBrowsing, UITableViewD
         
         let txt_currentHour = UILabel(frame:  CGRect(x:0,y: 0 ,width: 90,height: 36))
         txt_currentHour.backgroundColor = UIColor(white: 0, alpha: 0.5)
-        txt_currentHour.text = currentTime
+        Timer.scheduledTimer(withTimeInterval: 0, repeats: true) { timer in
+            txt_currentHour.text = DateFormatter.localizedString(from: NSDate() as Date, dateStyle: .none, timeStyle: .medium)
+        }
+      
         txt_currentHour.textColor = UIColor(rgb: 0x474747)
         txt_currentHour.font =  UIFont(name: "Poppins-Bold", size: 14)
         navigationItem.rightBarButtonItem =   UIBarButtonItem(customView: txt_currentHour)

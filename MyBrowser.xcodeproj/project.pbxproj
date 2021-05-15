@@ -29,6 +29,49 @@
 		0349E8982634C3D000B0391A /* ic_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 0349E8972634C3D000B0391A /* ic_eye.png */; };
 		0349E89B2635967D00B0391A /* BrowserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0349E89A2635967D00B0391A /* BrowserView.xib */; };
 		0349E89D2635D05900B0391A /* ic_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0349E89C2635D05800B0391A /* ic_home.png */; };
+		03E60866264FF8B600592BA9 /* CustomUITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E60865264FF8B600592BA9 /* CustomUITextFieldDelegate.swift */; };
+		03E60868265009D100592BA9 /* ic_message_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E60867265009D100592BA9 /* ic_message_white.png */; };
+		03E6086A26500D3000592BA9 /* ic_lock_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E6086926500D3000592BA9 /* ic_lock_white.png */; };
+		03E60894265010A400592BA9 /* EuclidCircularB-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E6086C265010A200592BA9 /* EuclidCircularB-BoldItalic.eot */; };
+		03E60895265010A400592BA9 /* EuclidCircularB-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E6086D265010A200592BA9 /* EuclidCircularB-Medium.ttf */; };
+		03E60896265010A400592BA9 /* EuclidCircularB-Italic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E6086E265010A300592BA9 /* EuclidCircularB-Italic.eot */; };
+		03E60897265010A400592BA9 /* EuclidCircularB-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E6086F265010A300592BA9 /* EuclidCircularB-BoldItalic.woff2 */; };
+		03E60898265010A400592BA9 /* EuclidCircularB-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E60870265010A300592BA9 /* EuclidCircularB-BoldItalic.ttf */; };
+		03E60899265010A400592BA9 /* EuclidCircularB-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E60871265010A300592BA9 /* EuclidCircularB-LightItalic.ttf */; };
+		03E6089A265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E60872265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.ttf */; };
+		03E6089B265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E60873265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.woff2 */; };
+		03E6089C265010A400592BA9 /* EuclidCircularB-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E60874265010A300592BA9 /* EuclidCircularB-Italic.ttf */; };
+		03E6089D265010A400592BA9 /* EuclidCircularB-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E60875265010A300592BA9 /* EuclidCircularB-Light.woff2 */; };
+		03E6089E265010A400592BA9 /* EuclidCircularB-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E60876265010A300592BA9 /* EuclidCircularB-Bold.woff */; };
+		03E6089F265010A400592BA9 /* EuclidCircularB-MediumItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E60877265010A300592BA9 /* EuclidCircularB-MediumItalic.eot */; };
+		03E608A0265010A400592BA9 /* EuclidCircularB-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E60878265010A300592BA9 /* EuclidCircularB-MediumItalic.ttf */; };
+		03E608A1265010A400592BA9 /* EuclidCircularB-SemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E60879265010A300592BA9 /* EuclidCircularB-SemiBold.woff2 */; };
+		03E608A2265010A400592BA9 /* EuclidCircularB-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E6087A265010A300592BA9 /* EuclidCircularB-Regular.eot */; };
+		03E608A3265010A400592BA9 /* EuclidCircularB-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E6087B265010A300592BA9 /* EuclidCircularB-Medium.eot */; };
+		03E608A4265010A400592BA9 /* EuclidCircularB-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E6087C265010A300592BA9 /* EuclidCircularB-BoldItalic.woff */; };
+		03E608A5265010A400592BA9 /* EuclidCircularB-Light.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E6087D265010A300592BA9 /* EuclidCircularB-Light.eot */; };
+		03E608A6265010A400592BA9 /* EuclidCircularB-Italic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E6087E265010A300592BA9 /* EuclidCircularB-Italic.woff2 */; };
+		03E608A7265010A400592BA9 /* EuclidCircularB-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E6087F265010A300592BA9 /* EuclidCircularB-Bold.eot */; };
+		03E608A8265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E60880265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.eot */; };
+		03E608A9265010A400592BA9 /* EuclidCircularB-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E60881265010A300592BA9 /* EuclidCircularB-Light.woff */; };
+		03E608AA265010A400592BA9 /* EuclidCircularB-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E60882265010A300592BA9 /* EuclidCircularB-Medium.woff */; };
+		03E608AB265010A400592BA9 /* EuclidCircularB-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E60883265010A300592BA9 /* EuclidCircularB-Medium.woff2 */; };
+		03E608AC265010A400592BA9 /* EuclidCircularB-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E60884265010A300592BA9 /* EuclidCircularB-Light.ttf */; };
+		03E608AD265010A400592BA9 /* EuclidCircularB-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E60885265010A300592BA9 /* EuclidCircularB-MediumItalic.woff2 */; };
+		03E608AE265010A400592BA9 /* EuclidCircularB-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E60886265010A300592BA9 /* EuclidCircularB-LightItalic.woff2 */; };
+		03E608AF265010A400592BA9 /* EuclidCircularB-LightItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E60887265010A400592BA9 /* EuclidCircularB-LightItalic.eot */; };
+		03E608B0265010A400592BA9 /* EuclidCircularB-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E60888265010A400592BA9 /* EuclidCircularB-MediumItalic.woff */; };
+		03E608B1265010A400592BA9 /* EuclidCircularB-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E60889265010A400592BA9 /* EuclidCircularB-SemiBold.ttf */; };
+		03E608B2265010A400592BA9 /* EuclidCircularB-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E6088A265010A400592BA9 /* EuclidCircularB-Regular.woff2 */; };
+		03E608B3265010A400592BA9 /* EuclidCircularB-SemiBold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 03E6088B265010A400592BA9 /* EuclidCircularB-SemiBold.eot */; };
+		03E608B4265010A400592BA9 /* EuclidCircularB-SemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E6088C265010A400592BA9 /* EuclidCircularB-SemiBold.woff */; };
+		03E608B5265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E6088D265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.woff */; };
+		03E608B6265010A400592BA9 /* EuclidCircularB-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E6088E265010A400592BA9 /* EuclidCircularB-Bold.ttf */; };
+		03E608B7265010A400592BA9 /* EuclidCircularB-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E6088F265010A400592BA9 /* EuclidCircularB-Regular.ttf */; };
+		03E608B8265010A400592BA9 /* EuclidCircularB-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E60890265010A400592BA9 /* EuclidCircularB-Regular.woff */; };
+		03E608B9265010A400592BA9 /* EuclidCircularB-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E60891265010A400592BA9 /* EuclidCircularB-Italic.woff */; };
+		03E608BA265010A400592BA9 /* EuclidCircularB-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 03E60892265010A400592BA9 /* EuclidCircularB-LightItalic.woff */; };
+		03E608BB265010A400592BA9 /* EuclidCircularB-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 03E60893265010A400592BA9 /* EuclidCircularB-Bold.woff2 */; };
 		448810752E435437F0679CDF /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4488148FD03698AF133D6B38 /* Poppins-Thin.ttf */; };
 		448810BF152A3B44C3280F18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448812DF4A86FDAF6725FCDE /* HomeViewController.swift */; };
 		448810C914E146F1C9643C39 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44881B7CF7D058D718D65746 /* CustomTextField.swift */; };
@@ -107,6 +150,49 @@
 		0349E8972634C3D000B0391A /* ic_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_eye.png; sourceTree = "<group>"; };
 		0349E89A2635967D00B0391A /* BrowserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserView.xib; sourceTree = "<group>"; };
 		0349E89C2635D05800B0391A /* ic_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home.png; sourceTree = "<group>"; };
+		03E60865264FF8B600592BA9 /* CustomUITextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITextFieldDelegate.swift; sourceTree = "<group>"; };
+		03E60867265009D100592BA9 /* ic_message_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_message_white.png; sourceTree = "<group>"; };
+		03E6086926500D3000592BA9 /* ic_lock_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_white.png; sourceTree = "<group>"; };
+		03E6086C265010A200592BA9 /* EuclidCircularB-BoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-BoldItalic.eot"; sourceTree = "<group>"; };
+		03E6086D265010A200592BA9 /* EuclidCircularB-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Medium.ttf"; sourceTree = "<group>"; };
+		03E6086E265010A300592BA9 /* EuclidCircularB-Italic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Italic.eot"; sourceTree = "<group>"; };
+		03E6086F265010A300592BA9 /* EuclidCircularB-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-BoldItalic.woff2"; sourceTree = "<group>"; };
+		03E60870265010A300592BA9 /* EuclidCircularB-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-BoldItalic.ttf"; sourceTree = "<group>"; };
+		03E60871265010A300592BA9 /* EuclidCircularB-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-LightItalic.ttf"; sourceTree = "<group>"; };
+		03E60872265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		03E60873265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-SemiBoldItalic.woff2"; sourceTree = "<group>"; };
+		03E60874265010A300592BA9 /* EuclidCircularB-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Italic.ttf"; sourceTree = "<group>"; };
+		03E60875265010A300592BA9 /* EuclidCircularB-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Light.woff2"; sourceTree = "<group>"; };
+		03E60876265010A300592BA9 /* EuclidCircularB-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Bold.woff"; sourceTree = "<group>"; };
+		03E60877265010A300592BA9 /* EuclidCircularB-MediumItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-MediumItalic.eot"; sourceTree = "<group>"; };
+		03E60878265010A300592BA9 /* EuclidCircularB-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-MediumItalic.ttf"; sourceTree = "<group>"; };
+		03E60879265010A300592BA9 /* EuclidCircularB-SemiBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-SemiBold.woff2"; sourceTree = "<group>"; };
+		03E6087A265010A300592BA9 /* EuclidCircularB-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Regular.eot"; sourceTree = "<group>"; };
+		03E6087B265010A300592BA9 /* EuclidCircularB-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Medium.eot"; sourceTree = "<group>"; };
+		03E6087C265010A300592BA9 /* EuclidCircularB-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-BoldItalic.woff"; sourceTree = "<group>"; };
+		03E6087D265010A300592BA9 /* EuclidCircularB-Light.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Light.eot"; sourceTree = "<group>"; };
+		03E6087E265010A300592BA9 /* EuclidCircularB-Italic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Italic.woff2"; sourceTree = "<group>"; };
+		03E6087F265010A300592BA9 /* EuclidCircularB-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Bold.eot"; sourceTree = "<group>"; };
+		03E60880265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-SemiBoldItalic.eot"; sourceTree = "<group>"; };
+		03E60881265010A300592BA9 /* EuclidCircularB-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Light.woff"; sourceTree = "<group>"; };
+		03E60882265010A300592BA9 /* EuclidCircularB-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Medium.woff"; sourceTree = "<group>"; };
+		03E60883265010A300592BA9 /* EuclidCircularB-Medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Medium.woff2"; sourceTree = "<group>"; };
+		03E60884265010A300592BA9 /* EuclidCircularB-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Light.ttf"; sourceTree = "<group>"; };
+		03E60885265010A300592BA9 /* EuclidCircularB-MediumItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-MediumItalic.woff2"; sourceTree = "<group>"; };
+		03E60886265010A300592BA9 /* EuclidCircularB-LightItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-LightItalic.woff2"; sourceTree = "<group>"; };
+		03E60887265010A400592BA9 /* EuclidCircularB-LightItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-LightItalic.eot"; sourceTree = "<group>"; };
+		03E60888265010A400592BA9 /* EuclidCircularB-MediumItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-MediumItalic.woff"; sourceTree = "<group>"; };
+		03E60889265010A400592BA9 /* EuclidCircularB-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-SemiBold.ttf"; sourceTree = "<group>"; };
+		03E6088A265010A400592BA9 /* EuclidCircularB-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Regular.woff2"; sourceTree = "<group>"; };
+		03E6088B265010A400592BA9 /* EuclidCircularB-SemiBold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-SemiBold.eot"; sourceTree = "<group>"; };
+		03E6088C265010A400592BA9 /* EuclidCircularB-SemiBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-SemiBold.woff"; sourceTree = "<group>"; };
+		03E6088D265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-SemiBoldItalic.woff"; sourceTree = "<group>"; };
+		03E6088E265010A400592BA9 /* EuclidCircularB-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Bold.ttf"; sourceTree = "<group>"; };
+		03E6088F265010A400592BA9 /* EuclidCircularB-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Regular.ttf"; sourceTree = "<group>"; };
+		03E60890265010A400592BA9 /* EuclidCircularB-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Regular.woff"; sourceTree = "<group>"; };
+		03E60891265010A400592BA9 /* EuclidCircularB-Italic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Italic.woff"; sourceTree = "<group>"; };
+		03E60892265010A400592BA9 /* EuclidCircularB-LightItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-LightItalic.woff"; sourceTree = "<group>"; };
+		03E60893265010A400592BA9 /* EuclidCircularB-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EuclidCircularB-Bold.woff2"; sourceTree = "<group>"; };
 		16315B06E304DBD7AA4C186A /* Pods_MyBrowserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBrowserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEB80D0B6365431AC1D58D1 /* Pods-MyBrowserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBrowserTests.release.xcconfig"; path = "Target Support Files/Pods-MyBrowserTests/Pods-MyBrowserTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FCC801EC8F2772C85919FC3 /* Pods_MyBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +342,7 @@
 			children = (
 				0349E88A263440FC00B0391A /* extension.swift */,
 				44881B7CF7D058D718D65746 /* CustomTextField.swift */,
+				03E60865264FF8B600592BA9 /* CustomUITextFieldDelegate.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -263,6 +350,8 @@
 		0349E88C26346F3D00B0391A /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				03E6086926500D3000592BA9 /* ic_lock_white.png */,
+				03E60867265009D100592BA9 /* ic_message_white.png */,
 				0345F975263F1D100059E5B1 /* ic_plus_white.png */,
 				0345F971263E91ED0059E5B1 /* ic_cancel.png */,
 				0349E89C2635D05800B0391A /* ic_home.png */,
@@ -322,6 +411,53 @@
 			path = xib;
 			sourceTree = "<group>";
 		};
+		03E6086B2650101E00592BA9 /* Euclide */ = {
+			isa = PBXGroup;
+			children = (
+				03E6087F265010A300592BA9 /* EuclidCircularB-Bold.eot */,
+				03E6088E265010A400592BA9 /* EuclidCircularB-Bold.ttf */,
+				03E60876265010A300592BA9 /* EuclidCircularB-Bold.woff */,
+				03E60893265010A400592BA9 /* EuclidCircularB-Bold.woff2 */,
+				03E6086C265010A200592BA9 /* EuclidCircularB-BoldItalic.eot */,
+				03E60870265010A300592BA9 /* EuclidCircularB-BoldItalic.ttf */,
+				03E6087C265010A300592BA9 /* EuclidCircularB-BoldItalic.woff */,
+				03E6086F265010A300592BA9 /* EuclidCircularB-BoldItalic.woff2 */,
+				03E6086E265010A300592BA9 /* EuclidCircularB-Italic.eot */,
+				03E60874265010A300592BA9 /* EuclidCircularB-Italic.ttf */,
+				03E60891265010A400592BA9 /* EuclidCircularB-Italic.woff */,
+				03E6087E265010A300592BA9 /* EuclidCircularB-Italic.woff2 */,
+				03E6087D265010A300592BA9 /* EuclidCircularB-Light.eot */,
+				03E60884265010A300592BA9 /* EuclidCircularB-Light.ttf */,
+				03E60881265010A300592BA9 /* EuclidCircularB-Light.woff */,
+				03E60875265010A300592BA9 /* EuclidCircularB-Light.woff2 */,
+				03E60887265010A400592BA9 /* EuclidCircularB-LightItalic.eot */,
+				03E60871265010A300592BA9 /* EuclidCircularB-LightItalic.ttf */,
+				03E60892265010A400592BA9 /* EuclidCircularB-LightItalic.woff */,
+				03E60886265010A300592BA9 /* EuclidCircularB-LightItalic.woff2 */,
+				03E6087B265010A300592BA9 /* EuclidCircularB-Medium.eot */,
+				03E6086D265010A200592BA9 /* EuclidCircularB-Medium.ttf */,
+				03E60882265010A300592BA9 /* EuclidCircularB-Medium.woff */,
+				03E60883265010A300592BA9 /* EuclidCircularB-Medium.woff2 */,
+				03E60877265010A300592BA9 /* EuclidCircularB-MediumItalic.eot */,
+				03E60878265010A300592BA9 /* EuclidCircularB-MediumItalic.ttf */,
+				03E60888265010A400592BA9 /* EuclidCircularB-MediumItalic.woff */,
+				03E60885265010A300592BA9 /* EuclidCircularB-MediumItalic.woff2 */,
+				03E6087A265010A300592BA9 /* EuclidCircularB-Regular.eot */,
+				03E6088F265010A400592BA9 /* EuclidCircularB-Regular.ttf */,
+				03E60890265010A400592BA9 /* EuclidCircularB-Regular.woff */,
+				03E6088A265010A400592BA9 /* EuclidCircularB-Regular.woff2 */,
+				03E6088B265010A400592BA9 /* EuclidCircularB-SemiBold.eot */,
+				03E60889265010A400592BA9 /* EuclidCircularB-SemiBold.ttf */,
+				03E6088C265010A400592BA9 /* EuclidCircularB-SemiBold.woff */,
+				03E60879265010A300592BA9 /* EuclidCircularB-SemiBold.woff2 */,
+				03E60880265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.eot */,
+				03E60872265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.ttf */,
+				03E6088D265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.woff */,
+				03E60873265010A300592BA9 /* EuclidCircularB-SemiBoldItalic.woff2 */,
+			);
+			path = Euclide;
+			sourceTree = "<group>";
+		};
 		2B6CAC1B2018D2D59E7F2F17 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,6 +474,7 @@
 		4488197BF9F9E01B552BF50B /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				03E6086B2650101E00592BA9 /* Euclide */,
 				44881C03876061049409DA95 /* Poppins */,
 			);
 			path = fonts;
@@ -497,37 +634,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E6089C265010A400592BA9 /* EuclidCircularB-Italic.ttf in Resources */,
 				0349E8582633F27C00B0391A /* LaunchScreen.storyboard in Resources */,
 				0349E8552633F27C00B0391A /* Assets.xcassets in Resources */,
+				03E6089B265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.woff2 in Resources */,
 				0349E89D2635D05900B0391A /* ic_home.png in Resources */,
+				03E60897265010A400592BA9 /* EuclidCircularB-BoldItalic.woff2 in Resources */,
+				03E608B4265010A400592BA9 /* EuclidCircularB-SemiBold.woff in Resources */,
+				03E608B6265010A400592BA9 /* EuclidCircularB-Bold.ttf in Resources */,
+				03E608AA265010A400592BA9 /* EuclidCircularB-Medium.woff in Resources */,
+				03E608B1265010A400592BA9 /* EuclidCircularB-SemiBold.ttf in Resources */,
+				03E608A9265010A400592BA9 /* EuclidCircularB-Light.woff in Resources */,
+				03E608A1265010A400592BA9 /* EuclidCircularB-SemiBold.woff2 in Resources */,
+				03E608AB265010A400592BA9 /* EuclidCircularB-Medium.woff2 in Resources */,
+				03E6089D265010A400592BA9 /* EuclidCircularB-Light.woff2 in Resources */,
+				03E608A5265010A400592BA9 /* EuclidCircularB-Light.eot in Resources */,
+				03E608AD265010A400592BA9 /* EuclidCircularB-MediumItalic.woff2 in Resources */,
+				03E608AE265010A400592BA9 /* EuclidCircularB-LightItalic.woff2 in Resources */,
 				0349E892263474FC00B0391A /* ic_lock.png in Resources */,
+				03E6089E265010A400592BA9 /* EuclidCircularB-Bold.woff in Resources */,
+				03E608B9265010A400592BA9 /* EuclidCircularB-Italic.woff in Resources */,
 				0349E8982634C3D000B0391A /* ic_eye.png in Resources */,
 				0349E88426343BBF00B0391A /* Auth.storyboard in Resources */,
 				0349E89026346FC500B0391A /* ic_message.png in Resources */,
+				03E608A3265010A400592BA9 /* EuclidCircularB-Medium.eot in Resources */,
+				03E608A4265010A400592BA9 /* EuclidCircularB-BoldItalic.woff in Resources */,
 				0349E8822634344300B0391A /* XenonPNG 1.png in Resources */,
+				03E60896265010A400592BA9 /* EuclidCircularB-Italic.eot in Resources */,
+				03E6086A26500D3000592BA9 /* ic_lock_white.png in Resources */,
 				0349E89B2635967D00B0391A /* BrowserView.xib in Resources */,
 				4488185CA653EF664FF986BE /* OFL.txt in Resources */,
+				03E60895265010A400592BA9 /* EuclidCircularB-Medium.ttf in Resources */,
 				44881E5656FB17EDA01DCBC7 /* Poppins-Bold.ttf in Resources */,
+				03E608BA265010A400592BA9 /* EuclidCircularB-LightItalic.woff in Resources */,
 				448810752E435437F0679CDF /* Poppins-Thin.ttf in Resources */,
 				448813961D6485A3304D15A4 /* Poppins-Black.ttf in Resources */,
 				44881B4C5EF04FAC1B338E86 /* Poppins-Light.ttf in Resources */,
 				448817153D91A6D6240006ED /* Poppins-Italic.ttf in Resources */,
+				03E608B5265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.woff in Resources */,
 				44881BB435CBD61E19D41C16 /* Poppins-Medium.ttf in Resources */,
 				44881F7021E62CA9F3520429 /* Poppins-Regular.ttf in Resources */,
 				4488179A4118D983DB413B5F /* Poppins-SemiBold.ttf in Resources */,
+				03E608B7265010A400592BA9 /* EuclidCircularB-Regular.ttf in Resources */,
+				03E60894265010A400592BA9 /* EuclidCircularB-BoldItalic.eot in Resources */,
 				4488128FFD025B7B5268CA9F /* Poppins-ExtraBold.ttf in Resources */,
+				03E608A0265010A400592BA9 /* EuclidCircularB-MediumItalic.ttf in Resources */,
 				0345F972263E91ED0059E5B1 /* ic_cancel.png in Resources */,
+				03E608AC265010A400592BA9 /* EuclidCircularB-Light.ttf in Resources */,
+				03E6089A265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.ttf in Resources */,
+				03E608B8265010A400592BA9 /* EuclidCircularB-Regular.woff in Resources */,
+				03E6089F265010A400592BA9 /* EuclidCircularB-MediumItalic.eot in Resources */,
+				03E60898265010A400592BA9 /* EuclidCircularB-BoldItalic.ttf in Resources */,
+				03E60899265010A400592BA9 /* EuclidCircularB-LightItalic.ttf in Resources */,
 				448819A24B2D97117D8AEBF8 /* Poppins-BoldItalic.ttf in Resources */,
 				448817BF6022CE28AF57CF69 /* Poppins-ExtraLight.ttf in Resources */,
 				448812BF7ECD74BBFA893C0A /* Poppins-ThinItalic.ttf in Resources */,
+				03E60868265009D100592BA9 /* ic_message_white.png in Resources */,
 				44881B6B9AEDC407C67F1372 /* Poppins-BlackItalic.ttf in Resources */,
+				03E608AF265010A400592BA9 /* EuclidCircularB-LightItalic.eot in Resources */,
 				44881B7BCEF5AC32C6D505EF /* Poppins-LightItalic.ttf in Resources */,
 				448818DEBDF5821D0F89F5D9 /* Poppins-MediumItalic.ttf in Resources */,
+				03E608A7265010A400592BA9 /* EuclidCircularB-Bold.eot in Resources */,
 				0345F976263F1D100059E5B1 /* ic_plus_white.png in Resources */,
+				03E608BB265010A400592BA9 /* EuclidCircularB-Bold.woff2 in Resources */,
 				448818181A83EA54287E09B9 /* Poppins-SemiBoldItalic.ttf in Resources */,
 				44881F32FE7838B43CA42D81 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				03E608A2265010A400592BA9 /* EuclidCircularB-Regular.eot in Resources */,
 				4488140CC54434AA7EAE0B5A /* Poppins-ExtraLightItalic.ttf in Resources */,
+				03E608B2265010A400592BA9 /* EuclidCircularB-Regular.woff2 in Resources */,
+				03E608A6265010A400592BA9 /* EuclidCircularB-Italic.woff2 in Resources */,
+				03E608B3265010A400592BA9 /* EuclidCircularB-SemiBold.eot in Resources */,
 				44881D7C53253EC1EB94DE2F /* ic_plus.png in Resources */,
+				03E608B0265010A400592BA9 /* EuclidCircularB-MediumItalic.woff in Resources */,
+				03E608A8265010A400592BA9 /* EuclidCircularB-SemiBoldItalic.eot in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +817,7 @@
 				44881899A6167AA373808DB2 /* BrowserPaginateCard.swift in Sources */,
 				44881A26452A1D1A57063A72 /* FullScreenBrowserViewController.swift in Sources */,
 				448810C914E146F1C9643C39 /* CustomTextField.swift in Sources */,
+				03E60866264FF8B600592BA9 /* CustomUITextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

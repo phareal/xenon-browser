@@ -27,11 +27,8 @@ extension CustomUITextField {
         imageView.contentMode = .scaleAspectFit
         imageView.frame = CGRect(x: 12.0, y: 12.0, width: 18.0, height: 18.0)
         if action !== nil{
-            print("dsd")
             imageView.isUserInteractionEnabled = true
             imageView.addGestureRecognizer(action)
-        }else{
-            print("dsddd")
         }
 
         view.addSubview(imageView)

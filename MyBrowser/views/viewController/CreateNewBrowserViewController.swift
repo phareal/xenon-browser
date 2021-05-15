@@ -29,8 +29,10 @@ class CreateNewBrowseViewController:UIViewController{
         view.layer.cornerRadius = 7
         view.layer.borderColor = UIColor(rgb: 0x1C1C1C).cgColor
         view.layer.borderWidth = 2
-        view.widthAnchor.constraint(equalToConstant: 321).isActive = true
-        view.heightAnchor.constraint(equalToConstant: 171).isActive = true
+        view.widthAnchor.constraint(equalToConstant: 311).isActive = true
+        view.heightAnchor.constraint(equalToConstant: 161).isActive = true
+    
+    
         return view
     }()
     
@@ -57,16 +59,21 @@ class CreateNewBrowseViewController:UIViewController{
         popUpWindow.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -40).isActive = true
         popUpWindow.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true;
         
+        popUpWindow.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+        
+      
+        
         //add the content to the view
         
         let popupTitle = UILabel();
         popUpWindow.addSubview(popupTitle)
+        
         popupTitle.topAnchor.constraint(equalTo: popUpWindow.topAnchor,constant: 12).isActive = true
-        popupTitle.leftAnchor.constraint(equalTo: popUpWindow.leftAnchor,constant: 12).isActive = true
+        popupTitle.leftAnchor.constraint(equalTo: popUpWindow.leftAnchor,constant: 20).isActive = true
         popupTitle.text = "Enter URL";
         popupTitle.textColor = .white
         popupTitle.translatesAutoresizingMaskIntoConstraints = false
-        popupTitle.font =  UIFont(name: "Poppins-Bold", size: 22)
+        popupTitle.font =  UIFont(name: "Poppins-Bold", size: 20)
         
         //create the stackview for the form
         
@@ -75,10 +82,14 @@ class CreateNewBrowseViewController:UIViewController{
         self.popUpWindow.addSubview(fieldContainer)
         
         fieldContainer.translatesAutoresizingMaskIntoConstraints = false
-        fieldContainer.topAnchor.constraint(equalTo: popupTitle.bottomAnchor,constant: 15).isActive=true
-        fieldContainer.leftAnchor.constraint(equalTo: popUpWindow.leftAnchor,constant: 12).isActive = true
+        fieldContainer.leftAnchor.constraint(equalTo: popUpWindow.leftAnchor,constant: 20).isActive = true
+    
+        fieldContainer.rightAnchor.constraint(equalTo: popUpWindow.rightAnchor,constant: -20).isActive = true
+    
+        fieldContainer.topAnchor.constraint(equalTo: popupTitle.bottomAnchor,constant: 10).isActive=true
+    
         fieldContainer.axis = .horizontal
-        fieldContainer.alignment = .center
+        fieldContainer.alignment = .fill
         fieldContainer.distribution = .fill
         fieldContainer.spacing = 12
         //add the field to the stack
@@ -96,8 +107,8 @@ class CreateNewBrowseViewController:UIViewController{
                                                                         
         ])
         self.txtfld_number.backgroundColor = UIColor(rgb: 0x242527)
-        self.txtfld_number.widthAnchor.constraint(equalToConstant: 58).isActive = true
-        self.txtfld_number.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        self.txtfld_number.widthAnchor.constraint(equalToConstant: 48).isActive = true
+        self.txtfld_number.heightAnchor.constraint(equalToConstant: 35).isActive = true
         
         
         self.txtfld_number.textColor = UIColor(rgb: 0xA8A8A8)
@@ -120,8 +131,10 @@ class CreateNewBrowseViewController:UIViewController{
                 .paragraphStyle: centeredParagraphStyle
         ])
         self.txtfld_url.backgroundColor = UIColor(rgb: 0x242527)
-        self.txtfld_url.widthAnchor.constraint(equalToConstant: 220).isActive = true
-        self.txtfld_url.heightAnchor.constraint(equalToConstant: 40).isActive = true
+    
+        self.txtfld_url.rightAnchor.constraint(equalTo: popUpWindow.rightAnchor,constant: -20).isActive = true
+    
+        self.txtfld_url.heightAnchor.constraint(equalToConstant: 35).isActive = true
         self.txtfld_url.textAlignment = .center
         
         self.txtfld_url.textColor =  UIColor(rgb: 0xA8A8A8)
@@ -139,17 +152,19 @@ class CreateNewBrowseViewController:UIViewController{
         self.popUpWindow.addSubview(btnStack)
         btnStack.translatesAutoresizingMaskIntoConstraints = false;
         btnStack.centerXAnchor.constraint(equalTo:self.popUpWindow.centerXAnchor).isActive = true
-        btnStack.topAnchor.constraint(equalTo: fieldContainer.bottomAnchor,constant: 20).isActive=true
+        btnStack.leftAnchor.constraint(equalTo:self.popUpWindow.leftAnchor,constant: 20).isActive = true
+        
+        btnStack.topAnchor.constraint(equalTo: fieldContainer.bottomAnchor,constant: 15).isActive=true
         btnStack.axis = .horizontal
         btnStack.alignment = .center
-        btnStack.distribution = .fill
+        btnStack.distribution = .fillEqually
         btnStack.spacing = 12
         
         
         self.btn_cancel=UIButton()
         btnStack.addArrangedSubview(self.btn_cancel)
         self.btn_cancel.translatesAutoresizingMaskIntoConstraints = false
-        self.btn_cancel.widthAnchor.constraint(equalToConstant: 140).isActive=true
+        self.btn_cancel.widthAnchor.constraint(equalToConstant: 120).isActive=true
         self.btn_cancel.heightAnchor.constraint(equalToConstant: 34).isActive=true
         self.btn_cancel.layer.cornerRadius = 9
         
@@ -163,7 +178,7 @@ class CreateNewBrowseViewController:UIViewController{
         self.btn_save=UIButton()
         btnStack.addArrangedSubview(self.btn_save)
         self.btn_save.translatesAutoresizingMaskIntoConstraints = false
-        self.btn_save.widthAnchor.constraint(equalToConstant: 140).isActive=true
+        self.btn_save.widthAnchor.constraint(equalToConstant: 120).isActive=true
         self.btn_save.heightAnchor.constraint(equalToConstant: 34).isActive=true
         self.btn_save.layer.cornerRadius = 9
         self.btn_save.backgroundColor =  UIColor(rgb: 0x3BD085)
