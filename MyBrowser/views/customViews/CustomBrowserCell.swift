@@ -63,8 +63,8 @@ class CustomBrowserCell: UITableViewCell {
         let closeIcon = UIImageView(image: UIImage(named: "ic_cancel")?.scalePreservingAspectRatio(targetSize: CGSize(width: 15, height: 15)))
         closeIcon.translatesAutoresizingMaskIntoConstraints = false
         nibContainer.addSubview(closeIcon)
-        closeIcon.topAnchor.constraint(equalTo:nibContainer.topAnchor,constant: 7).isActive = true
-        closeIcon.rightAnchor.constraint(equalTo:nibContainer.rightAnchor,constant: -7).isActive = true
+        closeIcon.topAnchor.constraint(equalTo:nibContainer.topAnchor,constant: 10).isActive = true
+        closeIcon.rightAnchor.constraint(equalTo:nibContainer.rightAnchor,constant: -20).isActive = true
         
         
         
